@@ -5,14 +5,16 @@ To write a python program to find a solution to a system of linear equations.
 1. 	Hardware – PCs
 2. 	Anaconda – Python 3.7 Installation / Moodle-Code Runner
 ## Algorithm:
-### Step 1: 
-Import the numpy module to use the built-in functions for calculation
-### Step 2: 
-Prepare the lists from each linear equations and assign in np.array()
-### Step 3: 
-Using the np.linalg.solve(), we can find the solutions.
-### Step 4: 
-End the program
+## Step 1
+Import the NumPy library to use its built-in linear algebra tools.
+## Step 2
+Define the coefficient matrix and the constant matrix using np.array().
+## Step 3
+Solve the system of linear equations using np.linalg.solve().
+## Step 4
+Print the solution to display the values of the variables.
+## Step 5
+End the program.
 ## Program:
 ```python
 #Program to find the solution for the given linear equations.
